@@ -292,4 +292,50 @@ Untracked files:
 	[31munsorted.txt[m
 	[31mwork.txt[m
 
-nothing added to commit bu
+nothing added to commit but untracked files present (use "git add" to track)
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par/2701[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par/2701[00m$ git add .
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par/2701[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par/2701[00m$ git s[Kci[K;om[K[K[Kommit [K[K[K[K[K[K[K[K[K[K[Kcd ..[K[K[K[K[Kcd ..
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par[00m$ git init
+Initialized empty Git repository in /home/ubuntu/par/.git/
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par[00m$ git c[Kadd .
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par[00m$ git commit =[K-m "2701 update"
+[master (root-commit) 9a9a5aa] 2701 update
+ 7 files changed, 378 insertions(+)
+ create mode 100644 2701/abc.txt
+ create mode 100644 2701/cutted.txt
+ create mode 100644 2701/report.txt
+ create mode 100644 2701/s.txt
+ create mode 100644 2701/sorted.txt
+ create mode 100644 2701/unsorted.txt
+ create mode 100644 2701/work.txt
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par[00m$ d[Kcd 2701/
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par/2701[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par/2701[00m$ rm abc.txt 
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par/2701[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par/2701[00m$ rm cutted.txt 
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par/2701[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par/2701[00m$ rm s.txt 
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par/2701[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par/2701[00m$ rm sorted.txt 
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par/2701[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par/2701[00m$ rm unsorted.txt 
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par/2701[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par/2701[00m$ ls
+report.txt  work.txt
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par/2701[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par/2701[00m$ cd ..
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par[00m$ git add. \\[K[K[K[K l[K. 
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par[00m$ git commit -m " [K2701 update 23[K"
+[master d2d1d31] 2701 update 2
+ 5 files changed, 20 deletions(-)
+ delete mode 100644 2701/abc.txt
+ delete mode 100644 2701/cutted.txt
+ delete mode 100644 2701/s.txt
+ delete mode 100644 2701/sorted.txt
+ delete mode 100644 2701/unsorted.txt
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par[00m$ git push origin [K[K[K[K[K[K[K[K[K[K[K[Kremote add https://github.com/ceccs18c44/ccs232.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par[00m$ git remote add https://github.com/ceccs18c44/ccs232.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjhttps://github.com/ceccs18c44/cs232.git[A]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;32mubuntu@ubuntu-Inspiron-3543[00m:[01;34m~/par[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/ceccs18c44/c[1Ps232.git[A]0;ubuntu@ubuntu-Inspiron-3543: ~/par[01;
