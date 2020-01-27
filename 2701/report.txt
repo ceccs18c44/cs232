@@ -1,0 +1,63 @@
+CEC CS 18 c06 27-01-2020
+Parvathy Krishnan
+
+--------------------------------
+#1: Linux Commands
+---------------------------------
+Command/Shell script/Program name
+
+mkdir
+cd
+rm
+mv
+grep
+cat
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+-------------------
+Remarks if any:
+
+-------------------------------------
+-------------------------------------
+#2: Sort command
+-------------------------------------
+Command/Shell script/Program name
+
+sort unsorted.txt sorted.txt
+
+-------------------------------------
+
+Input:
+--------
+#contains unsorted data
+unsorted.txt
+------------------
+
+Output:
+-----------
+#contains sorted data
+sorted.txt
+------------------------------------
+------------------------------------
+
+#3: Cut Command
+------------------------------------
+
+cut -f1 sorted.txt > cutted.txt
+
+Input:
+-----------------
+#before cut
+sorted.txt
+
+Output:
+----------------
+#after cut
+cutted.txt
