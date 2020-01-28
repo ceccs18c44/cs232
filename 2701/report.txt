@@ -1,63 +1,80 @@
 CEC CS 18 c44 27-01-2020
 Parvathy Krishnan
 
---------------------------------
-#1: Linux Commands
----------------------------------
-Command/Shell script/Program name
+#1: Familiarisation of linux commands
+Basic commands
 
-mkdir
-cd
-rm
-mv
-grep
-cat
-
----------------------------------
-
-Input: (If relevant)
----------------
-
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
--------------------
-Remarks if any:
-
--------------------------------------
--------------------------------------
-#2: Sort command
--------------------------------------
-Command/Shell script/Program name
-
-sort unsorted.txt sorted.txt
-
--------------------------------------
 
 Input:
---------
+Output: $ script work.txt
+Script started, file is work.txt
+$ls -l
+total 0
+-rw-rw-r-- 1 s4c2 s4c2 0 Jan 27 09:20 work.txt
+$ ls -c
+work.txt
+$ ls -ltr
+total 0
+-rw-rw-r-- 1 s4c2 s4c2 0 Jan 27 09:20 work.txt
+$ alias ls="ls-l"
+
+$ cat > abc.txt
+ubuntu 
+linux 
+ftp
+git
+github^Z
+$ cat > xyz.txt
+1
+2
+3
+4
+$ cat > unsorted.txt
+8
+9
+5
+7
+$ cat > sorted.txt
+5
+7
+8
+9
+$ cat > abc.txt
+indigo
+emriates
+kingfisher
+airindia
+$ sort -n abc.txt
+airindia
+emriates
+indigo
+kingfisher
+$ sort -n xyz.txt
+1
+2
+3
+4
+sort unsorted.txt sorted.txt
 #contains unsorted data
 unsorted.txt
-------------------
-
-Output:
------------
 #contains sorted data
 sorted.txt
-------------------------------------
-------------------------------------
 
-#3: Cut Command
-------------------------------------
-
-cut -f1 sorted.txt > cutted.txt
-
-Input:
------------------
-#before cut
-sorted.txt
-
-Output:
-----------------
 #after cut
 cutted.txt
+
+$ paste xyz.txt abc.txt
+1	indigo
+2	emriates
+3	kingfisher
+4	airindia
+$ grep "i" abc.txt
+indigo
+emriates
+kingfisher
+airindia
+exit
+exit
+There are stopped jobs
+
+
