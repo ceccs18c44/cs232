@@ -1,0 +1,207 @@
+Script started on Monday 03 February 2020 10:47:07 AM IST
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ ssh cs18c44@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c44@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb  3 10:50:34 2020 from 192.168.0.143
+$ ls
+0302  2701  examples.desktop
+$ cd /
+$ ls
+bin    core  home	 lib32	     media  proc  sbin	sys  var
+boot   dev   initrd.img  lib64	     mnt    root  snap	tmp  vmlinuz
+cdrom  etc   lib	 lost+found  opt    run   srv	usr
+$ exit
+Connection to 192.168.0.30 closed.
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ scp aa[K[K[K[K[K[Kcat aa.txt> aa.txt[1P aa.txt[C aa.txt> aa.txt[C[C[C[C[C[C[C
+paru
+hhgrgf
+tthy
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ scp a,[K/[K.txt [K[K[K[K[Ka.txt cs18c44@192.168.0.30:0302
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c44@192.168.0.30's password: 
+aa.txt                                          0%    0     0.0KB/s   --:-- ETAaa.txt                                        100%   17     0.0KB/s   00:00    
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ mkdir sample
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ cd sample
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302/sample[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302/sample[00m$ cat v[K> abc.txt
+paru
+123
+456
+765
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302/sample[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302/sample[00m$ rsync -avh 0302/ sample/
+sending incremental file list
+rsync: change_dir "/home/ceclab2/ceccs18c44/cs232/0302/sample//0302" failed: No such file or directory (2)
+created directory sample
+
+sent 20 bytes  received 41 bytes  122.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302/sample[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302/sample[00m$ ls
+abc.txt  [0m[01;34msample[0m
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302/sample[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302/sample[00m$ cd ..
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ sftp cs18c44@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c44@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> cat > abc.txt
+Invalid command.
+sftp> quit
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ cat pqr[K[K[K> pqr.txt
+765
+865
+345
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ sftp cs18c44@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c44@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put pqt[Kr.txt
+Uploading pqr.txt to /home/cs18c44/pqr.txt
+pqr.txt                                         0%    0     0.0KB/s   --:-- ETApqr.txt                                       100%   12     0.0KB/s   00:00    
+sftp> lcd  ;[K..
+sftp> lpwd
+Local working directory: /home/ceclab2/ceccs18c44/cs232
+sftp> ls
+0302                2701                examples.desktop    pqr.txt             
+sftp> rm pqr.txt
+Removing /home/cs18c44/pqr.txt
+sftp> ls
+0302                2701                examples.desktop    
+sftp> quit
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ ifconfig -a
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:1a:65  
+          inet addr:192.168.0.143  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::6e3f:ff7d:5f08:d259/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:230987 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16071 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:38463118 (38.4 MB)  TX bytes:2116479 (2.1 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:37516 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:37516 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2482120 (2.4 MB)  TX bytes:2482120 (2.4 MB)
+
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp1s0
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ route add default gwe[K 192.168.0.20
+SIOCADDRT: Operation not permitted
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ ping 192.168.0.1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=18.9 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=2.86 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=2.84 ms
+64 bytes from 192.168.0.1: icmp_seq=5 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=6 ttl=64 time=2.63 ms
+^C
+--- 192.168.0.1 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5008ms
+rtt min/avg/max/mdev = 2.637/5.458/18.979/6.047 ms
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ cat etc [K[K[K[K/etc/resolv.cong[Kf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.1.1
+search example.org
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ echo "nameserver 1.1.1.1">>?[Kresolv.com[Knfi g[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ ls
+aa.txt   bcd.txt               nss.txt  resolv.conf  [0m[01;34mtest[0m     work.txt
+abc.txt  cs18c44@192.168.0.30  pqr.txt  [01;34msample[0m       uit.txt
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ ls
+aa.txt   bcd.txt               nss.txt  resolv.conf  [0m[01;34mtest[0m     work.txt
+abc.txt  cs18c44@192.168.0.30  pqr.txt  [01;34msample[0m       uit.txt
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ ls -l
+total 48
+-rw-rw-r-- 1 ceclab2 ceclab2   17 Feb  3 10:49 aa.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   25 Feb  3 09:19 abc.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   33 Feb  3 10:01 bcd.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   25 Feb  3 09:20 cs18c44@192.168.0.30
+-rw-rw-r-- 1 ceclab2 ceclab2   15 Feb  3 10:31 nss.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   12 Feb  3 10:51 pqr.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   38 Feb  3 10:55 resolv.conf
+drwxrwxr-x 3 ceclab2 ceclab2 4096 Feb  3 10:50 [0m[01;34msample[0m
+drwxrwxr-x 3 ceclab2 ceclab2 4096 Feb  3 10:43 [01;34mtest[0m
+-rw-rw-r-- 1 ceclab2 ceclab2   12 Feb  3 10:30 uit.txt
+-rw-rw-r-- 1 ceclab2 ceclab2 8192 Feb  3 10:55 work.txt
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ ls -ltr
+total 48
+-rw-rw-r-- 1 ceclab2 ceclab2   25 Feb  3 09:19 abc.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   25 Feb  3 09:20 cs18c44@192.168.0.30
+-rw-rw-r-- 1 ceclab2 ceclab2   33 Feb  3 10:01 bcd.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   12 Feb  3 10:30 uit.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   15 Feb  3 10:31 nss.txt
+drwxrwxr-x 3 ceclab2 ceclab2 4096 Feb  3 10:43 [0m[01;34mtest[0m
+-rw-rw-r-- 1 ceclab2 ceclab2   17 Feb  3 10:49 aa.txt
+drwxrwxr-x 3 ceclab2 ceclab2 4096 Feb  3 10:50 [01;34msample[0m
+-rw-rw-r-- 1 ceclab2 ceclab2   12 Feb  3 10:51 pqr.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   38 Feb  3 10:55 resolv.conf
+-rw-rw-r-- 1 ceclab2 ceclab2 8192 Feb  3 10:55 work.txt
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ cat >siva.txt
+paru
+achy u
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ cat >paru.txt
+123
+456
+345
+782
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ sort -n paru,[K.txt
+123
+345
+456
+782
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ cu[K[Kpaste siva.txt paru.txt
+paru	123
+achu	456
+	345
+	782
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ cut -b 2 paru.txt
+2
+5
+4
+8
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ grep 2 paru.txt
+1[01;31m[K2[m[K3
+78[01;31m[K2[m[K
+]0;ceclab2@ceclab2: ~/ceccs18c44/cs232/0302[01;32mceclab2@ceclab2[00m:[01;34m~/ceccs18c44/cs232/0302[00m$ exit
+exit
+
+Script done on Monday 03 February 2020 10:57:43 AM IST
