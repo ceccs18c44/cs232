@@ -1,0 +1,161 @@
+CEC CS 18 C44
+Parvathy Krishnan
+
+------------------------------
+#1: Networking tasks
+---------------------------------
+Command/Shell script/Program name
+    ssh/rsync/scp etc
+---------------------------------
+
+Input: (If relevant)
+---------------
+ssh cs18c44@192.168.0.30
+
+rsync -avh 0302/ sample/
+
+scp aa.txt cs18c44@192.168.0.30:0302
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+        # ssh cs18c44@192.168.0.30, is used to open a secured connection to remote device
+	
+	# rsync -avh 0302/ test/, is used to sync the files across 0302/ and test/ 
+	
+	# scp aa.txt cs18c47@192.168.0.30:0302, this is used to upload aa.txt to 0302/ in the host 192.168.0.30
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:ftp usage
+
+INPUT:
+      sftP cs18C44@192.168.0.30
+      put pqr.txt
+      lcd
+      lpwd
+      wm pqr.txt
+      quit
+
+OUTPUT:
+         # sftp cs18c44@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+	# put.txt, upload put.txt
+
+	# lcd .., change local directory 
+
+	# lpwd, show local present working directory
+
+        # rm pqr.txt, remove pqr.txt from host
+
+	# quit, quit current ftp session
+
+ 
+#3:FURTHER NETWORKING TASK
+
+INPUT:
+     ifconfig -a
+     route -n
+     route add default gw 192.168.0.20
+     ping 192.168.0.1
+     cat /etc/resolv.conf
+     echo "nameserver 1.1.1.1'>>resolv.conf
+
+OUTPUT:
+        # ifconfig -a displays all available network interfaces
+	
+	# route -n displays kernal routing table
+	
+	# route add, is used add a new route to the table,
+	# route add default gw 192.168.0.2, a default gateway in this case
+        # ping 192.168.0.20,assess the time it takes to send and receive a response from  the network
+	# echo "nameserver 1.1.1.1" >> /etc/resolv.conf,to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver           
+          configuration
+
+
+#4:LINUX COMMANDS
+
+INPUT:
+  
+       ls -l
+OUTPUT:
+-rw-rw-r-- 1 ceclab2 ceclab2   17 Feb  3 10:49 aa.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   25 Feb  3 09:19 abc.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   33 Feb  3 10:01 bcd.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   25 Feb  3 09:20 cs18c44@192.168.0.30
+-rw-rw-r-- 1 ceclab2 ceclab2   15 Feb  3 10:31 nss.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   12 Feb  3 10:51 pqr.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   38 Feb  3 10:55 resolv.conf
+drwxrwxr-x 3 ceclab2 ceclab2 4096 Feb  3 10:50 sample
+drwxrwxr-x 3 ceclab2 ceclab2 4096 Feb  3 10:43 test
+
+INPUT:     ls -ltr
+OUTPUT:
+total 48
+-rw-rw-r-- 1 ceclab2 ceclab2   25 Feb  3 09:19 abc.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   25 Feb  3 09:20 cs18c44@192.168.0.30
+-rw-rw-r-- 1 ceclab2 ceclab2   33 Feb  3 10:01 bcd.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   12 Feb  3 10:30 uit.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   15 Feb  3 10:31 nss.txt
+drwxrwxr-x 3 ceclab2 ceclab2 4096 Feb  3 10:43 test
+-rw-rw-r-- 1 ceclab2 ceclab2   17 Feb  3 10:49 aa.txt
+drwxrwxr-x 3 ceclab2 ceclab2 4096 Feb  3 10:50 sample
+-rw-rw-r-- 1 ceclab2 ceclab2   12 Feb  3 10:51 pqr.txt
+-rw-rw-r-- 1 ceclab2 ceclab2   38 Feb  3 10:55 resolv.conf
+-rw-rw-r-- 1 ceclab2 ceclab2 8192 Feb  3 10:55 work.txt
+
+INPUT:    alias
+OUTPUT:
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+INPUT: cat >siva.txt
+paru
+achu
+INPUT:cat >paru.txt
+123
+456
+345
+782
+INPUT:sort -n paru.txt
+OUTPUT:
+123
+345
+456
+782
+INPUT: paste siva.txt paru.txt
+OUTPUT:
+paru	123
+achu	456
+	345
+	782
+ INPUT:cut -b 2 paru.txt
+OUTPUT:
+2
+5
+4
+8
+INPUT: grep 2 paru.txt
+OUTPUT:
+123
+782
+
+
+ 
+
+#5:
+
+
+
