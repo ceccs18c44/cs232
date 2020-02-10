@@ -1,0 +1,48 @@
+CEC CS 18 C44 10-02-2020
+Parvathy Krishnan
+
+--------------------------------
+#1: SCRIPTING TASK (t2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	/SX/script.sh
+
+Input: 
+---------------
+
+	# result downloaded from ktu site and then converted to text file ,result_CHN.pdf to result_CHN.txt
+      pdftotext -layout result_CHN.pdf result_CHN.txt
+
+	# student details file containing roll number ,Students.txt
+
+	#Separated result of cs students
+ 
+	
+	#Calculated grade points
+
+	#Separated grade points
+
+	#Calculated cgpa
+
+	
+
+
+--------------------------------
+Output: 
+
+	# file with cgpa/count of subjects student failed in file cgpa.txt
+
+
+----------------
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+
+-------------------
+Remarks if any:
