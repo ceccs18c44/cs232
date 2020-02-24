@@ -1,0 +1,76 @@
+CEC CS 18 C44
+PARVATHY KRISHNAN
+#1:WEBPAGE CREATION
+
+
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+INPUT:
+
+	index.html , contains table with heads	
+	
+--------------------------------
+Output: 
+
+	# http://192.168.0.30/cs17d/cs18c44/
+--------------------------------
+#2: SCRIPTING TASK
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: 
+---------------
+
+	# result downloaded from ktu site and then converted to text file ,result_CHN.pdf to result_CHN.txt
+      pdftotext -layout result_CHN.pdf result_CHN.txt
+
+	# student details file containing roll number ,Students.txt
+
+	#Separated result of cs students
+ 
+	
+	#Calculated grade points
+
+	#Separated grade points
+
+	#Calculated cgpa
+
+	
+
+
+--------------------------------
+Output: 
+
+	# file with cgpa/count of subjects student failed in file cgpa.txt
+
+ 
+
+
+
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
