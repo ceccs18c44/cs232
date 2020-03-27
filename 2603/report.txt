@@ -1,0 +1,28 @@
+CEC CS 18 C44
+PARVATHY KRISHNAN
+
+--------------------------------
+#1: Linux Installation(t6)
+    
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+Linux Mint #installation using a removable drive(USB)
+---------------
+
+--------------------------------
+Output: 
+        #Screenshot1-8(.png) shows the various steps in the linux installation
+        
+        #Linux Mint is installed alongside windows
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
