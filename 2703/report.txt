@@ -1,0 +1,70 @@
+CEC CS 18 C44
+PARVATHY KRISHNAN
+
+--------------------------------
+#1: Further Tasks[t8(2)]
+
+     Perl
+
+---------------------------------
+Program name
+
+---------------------------------
+
+        #Program to add two numbers
+          /page.pl
+
+        #Program to access an array
+          /array.pl
+
+        #Program to check whether a number is odd or even
+          /odd.pl
+
+        #Program to check whether a number is prime or not
+          /prime.pl
+
+--------------------------------
+Output: 
+       
+     1. The output of page.pl
+       
+      Enter the numbers
+           
+            45 78
+        
+       The sum of two numbers is 123
+     
+
+     2. The output of array.pl
+
+      c++
+      c
+      java
+      python
+      javascript
+
+     
+     3. The output of odd.pl
+
+      Enter the number
+
+          456
+      The number is even
+
+
+     4. The output of prime.pl
+
+      Enter the number
+
+         11
+     The number is prime
+     
+
+
+
+
+
+
+
+     2.
+
