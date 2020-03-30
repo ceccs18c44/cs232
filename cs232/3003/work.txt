@@ -1,0 +1,54 @@
+Script started on 2020-03-30 13:24:01+0530
+]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ sudo gedit /var/wwww/html/index.html[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [7Pip address
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /var/wwww/html/index.html[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Capt-get insta[7Pll apache2[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [4Pftp localhost
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /etc/vssftpd.conf[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Capt-get insta[1Pll gedit[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Cgedit /etc/vsftpd.conf[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Capt-get install vsftpd
+[sudo] password for parvathy: ***********           
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 9%Reading state information... Done
+vsftpd is already the newest version (3.0.3-9build1).
+0 upgraded, 0 newly installed, 0 to remove and 256 not upgraded.
+]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ sudo apt-get instaall vsftpd[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt-get instaall vsftpd[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Cgedit /var/www/html/index.html[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [7Pip address
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /var/wwww/html/index.html[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Capt-get insta[7Pll apache2[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [4Pftp localhost
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /etc/vssftpd.conf
+
+** (gedit:7115): [1;33mWARNING[0m **: [34m13:27:27.060[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:7115): [1;33mWARNING[0m **: [34m13:27:27.061[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:7115): [1;33mWARNING[0m **: [34m13:27:30.709[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:parvathy): parvathy
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> exit
+221 Goodbye.
+]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ ftp localhostsudo gedit /etc/vssftpd.conf[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Capt-get install vsftpd[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Cgedit /var/www/html/index.html[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [7Pip address
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /var/wwww/html/index.html[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Capt-get insta[7Pll apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 9%Reading state information... Done
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 256 not upgraded.
+]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ sudo apt-get instaall apache2[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [4Pftp localhost
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo gedit /etc/vssftpd.conf[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Capt-get install vsftpd[A]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ [C[C[C[C[Cgedit /var/www/html/index.html
+
+** (gedit:7169): [1;33mWARNING[0m **: [34m13:29:11.530[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:7169): [1;33mWARNING[0m **: [34m13:29:11.530[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:7169): [1;33mWARNING[0m **: [34m13:29:12.431[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:7169): [1;33mWARNING[0m **: [34m13:29:12.431[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:7169): [1;33mWARNING[0m **: [34m13:29:14.015[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;parvathy@parvathy-System-Product-Name: ~/ceccs18c44/cs232/3003[01;32mparvathy@parvathy-System-Product-Name[00m:[01;34m~/ceccs18c44/cs232/3003[00m$ exit
+exit
+
+Script done on 2020-03-30 13:34:16+0530
