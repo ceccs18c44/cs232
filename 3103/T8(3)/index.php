@@ -1,4 +1,4 @@
 
 <?php
-echo "Haii! Iam paruu"
+echo "Haii...! Iam paruzz"
 ?>
