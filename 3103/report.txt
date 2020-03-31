@@ -1,0 +1,130 @@
+CEC CS 18C 44      31/03/2020
+PARVATHY KRISHNAN
+
+--------------------------------
+#1: Further Tasks(t8)
+     1. Package Management
+
+
+---------------------------------
+Command/Shell script/Program name
+
+ #Update local packages
+   sudo apt-get update
+ 
+ #To install nmap
+   sudo apt-get install nmap
+
+ #To remove nmap
+  sudo apt remove nmap
+
+ #To install tasksel
+  sudo apt-get install tasksel
+
+ #To remove tasksel
+  sudo apt remove tasksel
+
+ #To install links2
+  sudo apt-get install links2
+
+ #To remove links2
+  sudo apt remove links2
+
+ #To install apache2
+  sudo apt-get install apache2
+
+ #To access the same prompts on installation
+  sudo dpkg-reconfigure apache2
+
+ #To remove all dependencies no longer required
+  sudo apt-get autoremove
+
+ #To list all installed packages
+  sudo apt list > packages.txt
+
+
+Output: 
+	  
+
+	#List of installed packages
+	  packages.txt
+
+
+-------------------
+
+
+
+
+#2: Further Tasks(T8)
+     3.LAMP Stack
+
+
+ #To update list
+   sudo apt update
+
+ #To start apache2
+   sudo service apache2 start
+
+ #To install mysql 
+   sudo apt-get install mysql-server
+
+ #To start mysql server
+   sudo service mysql start 
+
+ #login to mysql
+   mysql -u root -p
+
+ #To show databases
+   show databases;
+
+ #php installation
+   sudo apt install php libapache2-mod-php php-mysql
+
+ #Creating php file info
+   nano info.php
+
+ #Creating php file index
+   nano index.php
+
+ #php version viewed through 
+   http://localhost/info.php  or  192.168.42.168/info.php
+
+ #Test php processing on web server
+   sudo nano /var/www/html/info.php
+
+
+------------------------------- 
+
+
+Input:
+
+php file:
+
+          info.php
+          index.php
+
+-----------------------------
+
+Output:
+
+
+  #info.php
+     info.png
+
+
+  #index.php
+     index.png
+
+
+
+---------------------------
+
+
+
+
+
+
+
+
+
+
