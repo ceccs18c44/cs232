@@ -1,0 +1,32 @@
+CEC CS 18C 44      02/04/2020
+PARVATHY KRISHNAN
+
+#1. Shell script to implement a menu driven calculator(s6)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+       
+
+      cal.sh #Shell script used
+
+
+Input:  
+---------------
+        
+      two numbers(12 and 4)
+
+
+--------------------------------
+Output: 
+
+
+    The various operations are done and the corresponding output is obtained.
+    
+    1.screenshot1.png and 2.screenshot2.png both screenshots shows the operations performed with
+       the numbers.
+
+
+-------------------
+
+
