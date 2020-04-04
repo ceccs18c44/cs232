@@ -1,54 +1,76 @@
-CEC CS 18 C44          03-04-2020
+CEC CS 18 C44           04-04-2020
 PARVATHY KRISHNAN
 
 --------------------------------
-#1: T8(4) Kernel Compilation
+#1:Shell Programming(S4)
 ---------------------------------
-
-
 Command/Shell script/Program name
 
 ---------------------------------
 
-    
-	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz #To download the latest stable kernel
+    sysconf1.sh  #Shell script
 
-	unxz -v linux-5.5.9.tar.xz #To extract the source code
-
-	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.sign #To download the PGP signature
-
-	gpg --verify linux-5.5.9.tar.sign #To verify the kernel tartball with GnuPG
-
-	tar xvf linux-5.5.9.tar #To extract the tartball
-
-	cd linux-5.5.9
-
-	cp -v /boot/config-$(uname -r) .config #To create the configuration file
-
-	sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev #To install the development tools for compilation
-
-	make -j $(nproc) #To compile the kernel
-
-
-
-
----------------
 
 --------------------------------
 Output: 
 
+         out.png contains the screenshot of shell script showing various system configurations like :
+         
+          #Currently logged user and his login name
 
-        Screenshot.png contains the sreenshot of the files that are compiled
+          #Your current shell 
+       
+          #Your home diretory
 
-	Compiled kernel is at /linux-5.5.9
+          #Your operating system type
+
+          #Your current path setting
+
+          #Your current working directory
+
+          #Number of users currently logged in
+
 
 -------------------
 Remarks if any:
 
+-------------------------------------
+-------------------------------------
 
-    The kernel file is too large to be uploaded.
+#2:Shell  Programming(S5)
+
+-------------------------------------
+
+
+               sysconf2.sh  #Shell script used
 
 ---------------------------
+
+Output:
+-----------------------
+
+         #OS and version, release number, kernel version
+         #All available shells
+         #Computer CPU information like processor type,speed etc
+         #Memory information
+         #Hard disk information like size of hard disk,cache memory,model,etc
+         #File system (Mounted)
+
+
+----------------------
+
+Remarks if any:
+
+--------------------------------
+
+--------------------------------
+
+
+
+
+
+
+
 
 
 
